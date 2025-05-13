@@ -1,4 +1,4 @@
-# 📧 Spam Text Classifier
+# 📧 Spam Email Classifier
 
 A machine learning-based spam detection system that classifies email subject lines as **spam** or **ham** using natural language processing (NLP), TF-IDF vectorization, and a Random Forest classifier.
 
