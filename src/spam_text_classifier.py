@@ -111,7 +111,7 @@ def evaluate_model(true_labels, predicted_labels):
     plt.ylabel('True Labels')
     plt.show()
 
-    # ROC Curve ouput
+    # ROC Curve output
     fpr, tpr, _ = roc_curve(true_labels, rf_classifier.predict_proba(X_test)[:, 1])
     roc_auc = auc(fpr, tpr)
 
